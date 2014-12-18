@@ -13,12 +13,12 @@
   echo "Fichier:<br>";
 
 // rajout pde 1
-  
 print_r($_FILES);
 echo "<br><br>";
 print_r($_FILES['userfile1']);
-//foreach ($_FILES as $fic)	
-/*	$userfile = $_POST['userfile1'];
+
+foreach ($_FILES as $fic)	
+	$userfile = $_POST['userfile1'];
   echo $userfile." ".$userfile['name']." ".$userfile['size']." ".$userfile['type']."<br>";
 
   echo $userfile." ".$userfile_name." ".$userfile_size." ".$userfile_type."<br>";
@@ -48,7 +48,7 @@ print_r($_FILES['userfile1']);
     exit;
   }
   echo "Fichier chargé avec succès.<br><br>"; 
-*/
+
   /*
   $fp = fopen($upfile, "r");
   $contents = fread ($fp, filesize ($upfile));
