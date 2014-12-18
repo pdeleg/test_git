@@ -12,8 +12,7 @@
 
   echo "Fichier:<br>";
 
-// rajout pde 1
-  
+// rajout pde : traces du post, detail de FILES :
 print_r($_FILES);
 echo "<br><br>";
 print_r($_FILES['userfile1']);
